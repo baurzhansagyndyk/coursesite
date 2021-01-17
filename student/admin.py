@@ -1,0 +1,4 @@
+from django.contrib import admin
+from student import models
+
+admin.site.register(models.Snippet)
